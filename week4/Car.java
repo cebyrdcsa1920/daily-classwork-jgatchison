@@ -22,6 +22,15 @@ public class Car
         return "This is my Mustang";
     }
 
+    public Car(String model, Color color, int numPassengers, double amountOfGas, double mpg)
+    {
+        this.model = model;
+        this.color = color;
+        this.numPassengers = numPassengers;
+        this.amountOfGas = amountOfGas;
+        this.mpg = mpg;
+    }
+
     /**
      * Drives the car the given distane. Subtracts gas from the tank
      *
